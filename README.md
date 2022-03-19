@@ -30,7 +30,7 @@ Support for Darwin (Mac), Windows AMD64, and Linux ARM (Raspberry Pi) is provide
 
 Support for other JVMs is also best-effort. Periodic CPU utilization stats are prone not to work everywhere.
 
-**\*Java 11 appears to have some issues with Discord's TLS 1.3. Java 14 has other undiagnosed HTTPS problems. Use Java 13. Docker images have been updated.** See [#258](https://github.com/freyacodes/Lavalink/issues/258), [#260](https://github.com/freyacodes/Lavalink/issues/260)
+**\*Java 11 appears to have some issues with Discord's TLS 1.3. Java 14 has other undiagnosed HTTPS problems. Use Java 13. Docker images have been updated.** See [#258](https://github.com/ind123428/Lavalink/issues/258), [#260](https://github.com/ind123428/Lavalink/issues/260)
 
 ## Changelog
 
@@ -71,7 +71,7 @@ While major, minor and patch will do an optimum effort to adhere to [Semantic Ve
 ## Client libraries:
 Client | Platform | Compatible With | Additional Information
 -------|----------|-----------------|-----------------------
-[Lavalink-Client](https://github.com/freyacodes/lavalink-client) | Java | JDA/**Any** 
+[Lavalink-Client](https://github.com/ind123428/lavalink-client) | Java | JDA/**Any** 
 [Lavalink.kt](https://github.com/DRSchlaubi/lavalink.kt) | Kotlin | JDA/Kord/**Any** | Kotlin Coroutines
 [Lavalink.py](https://github.com/Devoxin/Lavalink.py) | Python | **Any**
 [lavasnek_rs](https://github.com/vicky5124/lavasnek_rs) | Python | **Any\*** | *`asyncio`-based libraries only
@@ -102,14 +102,14 @@ Client | Platform | Compatible With | Additional Information
 [gavalink](https://github.com/foxbot/gavalink) | Go | **Any** | Unmaintained
 [Lavalink-rs](https://gitlab.com/vicky5124/lavalink-rs) | Rust | **Any\*** | *`tokio`-based libraries only
 
-Or alternatively, you can create your own client library, following the [implementation documentation](https://github.com/freyacodes/Lavalink/blob/master/IMPLEMENTATION.md).
+Or alternatively, you can create your own client library, following the [implementation documentation](https://github.com/ind123428/Lavalink/blob/master/IMPLEMENTATION.md).
 Any client libraries marked with `Unmaintained` have been marked as such as their repositories have not received any commits for at least 1 year since time of checking,
 however they are listed as they may still support Lavalink, and/or have not needed maintenance, however keep in mind that compatibility and full feature support is not guaranteed.
 
 ## Server configuration
-Download binaries from [the CI server](https://ci.fredboat.com/viewLog.html?buildId=lastSuccessful&buildTypeId=Lavalink_Build&tab=artifacts&guest=1) or [the GitHub releases](https://github.com/freyacodes/Lavalink/releases).
+Download binaries from [the CI server](https://ci.fredboat.com/viewLog.html?buildId=lastSuccessful&buildTypeId=Lavalink_Build&tab=artifacts&guest=1) or [the GitHub releases](https://github.com/ind123428/Lavalink/releases).
 
-Put an `application.yml` file in your working directory. ([Example here](https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example))
+Put an `application.yml` file in your working directory. ([Example here](https://github.com/ind123428/Lavalink/blob/master/LavalinkServer/application.yml.example))
 
 Run with `java -jar Lavalink.jar`
 
